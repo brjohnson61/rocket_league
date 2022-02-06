@@ -368,22 +368,7 @@ def main():
 
     # Kill service thread listening to keypresses
     kill_service_process()
-
-def main_loop():
-    while(True):
-        #interval = random.randint(300, 900) # 5-15 minute timeout (multiplied by 60 for seconds)
-        #time.sleep(interval)
-        
-        print ("output1")
-        # keyboard = Controller()
-        # key_a = "a"
-        # key_d = "d"
-
-        # keyboard.press(key_a)
-        # keyboard.release(key_a)
-
-        # keyboard.press(key_d)
-        # keyboard.release(key_d)
+    
 
 if __name__ == "__main__":
     main()
